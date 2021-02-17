@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Gentium Basic";
-    src:url("fonts/GentiumBasic-Regular.ttf");
+    src: url("fonts/GentiumBasic-Regular.ttf");
 }
 @font-face {
     font-family: "Gentium Basic Bold";
-    src:url("fonts/GentiumBasic-Bold.ttf");
+    src: url("fonts/GentiumBasic-Bold.ttf");
 }
 @font-face {
     font-family: "Open Sans";
-    src:url("fonts/OpenSans-Regular.ttf");
+    src: url("fonts/OpenSans-Regular.ttf");
 }
 @font-face {
     font-family: "Lora Medium";
-    src:url("fonts/Lora-Medium.ttf");
+    src: url("fonts/Lora-Medium.ttf");
 }

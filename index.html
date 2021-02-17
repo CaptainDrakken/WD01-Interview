@@ -21,10 +21,7 @@ body {
   color: #332011;
 }
 div.gallery {
-  margin: 5px;
   border: 1px solid #C5915D;
-  float: left;
-  width: 180px;
 }
 
 div.gallery:hover {
@@ -39,54 +36,99 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  font-family: Lora, serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 </style>
 </head>
 <body>
     <h1 class="a">Interview of Jessica Imperiale</h1>
     <p>Testing 1 2 3.</p>
     <h2 class="a">Gallery</h2>
-<div class="gallery">
+<div class="responsive">
+ <div class="gallery">
   <a target="_blank" href="images/IMG_0077.jpg">
     <img src="images/IMG_0077.jpg" alt="Pink Hair Girl" width="400" height="400">
   </a>
   <div class="desc">Artwork</div>
+ </div>
 </div>
 
-<div class="gallery">
+<div class="responsive">
+ <div class="gallery">
   <a target="_blank" href="images/IMG_0132.jpg">
     <img src="images/IMG_0132.jpg" alt="Women in Black" width="400" height="400">
   </a>
   <div class="desc">Artwork</div>
+ </div>
 </div>
 
-<div class="gallery">
+<div class="responsive">
+ <div class="gallery">
   <a target="_blank" href="images/IMG_8481.jpeg">
-    <img src="images/IMG_8481.jpeg" alt="Family Among Sunflowers" width="401.44" height="301.6">
+    <img src="images/IMG_8481.jpeg" alt="Family Among Sunflowers" width="400" height="300.51813471503">
   </a>
   <div class="desc">Photo</div>
+ </div>
 </div>
 
-<div class="gallery">
+<div class="responsive">
+ <div class="gallery">
   <a target="_blank" href="images/IMG_8593.jpeg">
-    <img src="images/IMG_8593.jpeg" alt="Mushrooms" width="266.1" height="357.2">
+    <img src="images/IMG_8593.jpeg" alt="Mushrooms" width="400" height="536.9409996242">
   </a>
   <div class="desc">Artwork</div>
+ </div>
 </div>
 
-<div class="gallery">
+<div class="responsive">
+ <div class="gallery">
   <a target="_blank" href="images/IMG_8729.jpeg">
-    <img src="images/IMG_8729.jpeg" alt="Selfie1" width="232" height="308.8">
+    <img src="images/IMG_8729.jpeg" alt="Selfie1" width="400" height="532.41379310345">
   </a>
   <div class="desc">Selfie</div>
+ </div>
 </div>
 
-<div class="gallery">
+<div class="responsice">
+ <div class="gallery">
   <a target="_blank" href="images/IMG_9001.jpg">
-    <img src="images/IMG_9001.jpg" alt="Selfie2" width="118.8" height="220.8">
+    <img src="images/IMG_9001.jpg" alt="Selfie2" width="400" height="743.43434343434">
   </a>
   <div class="desc">Selfie</div>
+ </div>
 </div>
+
+<div class="clearfix"></div>
 
 </body>
 </html> 

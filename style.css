@@ -3,14 +3,10 @@
     src: url("fonts/GentiumBasic-Regular.ttf");
 }
 @font-face {
-    font-family: "Gentium Basic Bold";
-    src: url("fonts/GentiumBasic-Bold.ttf");
-}
-@font-face {
     font-family: "Open Sans";
     src: url("fonts/OpenSans-Regular.ttf");
 }
 @font-face {
-    font-family: "Lora Medium";
-    src: url("fonts/Lora-Medium.ttf");
+    font-family: "Lora";
+    src: url("fonts/Lora-Regular.ttf");
 }

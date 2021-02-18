@@ -10,3 +10,75 @@
     font-family: "Lora";
     src: url("fonts/Lora-Regular.ttf");
 }
+h1.a {
+    text-align: center;
+    font-family: 'Gentium Basic', serif;
+    font-size: 40px;
+    padding-top: 25px;
+}
+h2.a {
+    font-family: Lora, serif;
+    text-align: center;
+}
+h2.b {
+      font-family: 'Gentium Basic', serif;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+p {
+      font-family: 'Open Sans', sans-serif;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+body {
+    font-family: "Gentium Basic", serif;
+    background-color: #EFDBB6;
+    color: #332011;
+}
+div.gallery {
+    border: 1px solid #C5915D;
+}
+  
+div.gallery:hover {
+    border: 1px solid #633C15;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Lora, serif;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

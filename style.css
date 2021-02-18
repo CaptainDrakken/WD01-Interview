@@ -10,6 +10,25 @@
     font-family: "Lora";
     src: url("fonts/Lora-Regular.ttf");
 }
+a:link {
+    text-decoration: none;
+    color: #332011;
+}
+  
+a:visited {
+    text-decoration: none;
+    color:#C5915D;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color:#633C15;
+}
+  
+a:active {
+    text-decoration: underline;
+    color:#FCF3E4;
+}
 h1.a {
     text-align: center;
     font-family: 'Gentium Basic', serif;
